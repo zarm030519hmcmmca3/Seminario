@@ -1,0 +1,167 @@
+* {
+	margen :  0 px ;
+	relleno :  0 px ;
+}
+
+html , cuerpo {
+	familia de fuentes : Arial , Helvetica , sans-serif;
+}
+
+h1 {
+	color :  # 000 ;
+	tamaño de fuente :  38 px ;
+	alineación de texto : centro;
+	font-weight : más negrita;
+	sombra de texto :  0 px  0 px  12 px  # f00 ;
+	margen superior :  15 px ;
+}
+
+h2 {
+	color :  # 000 ;
+	tamaño de fuente :  34 px ;
+	alineación de texto : centro;
+	font-weight : más negrita;
+	sombra de texto :  0 px  0 px  12 px  # f00 ;
+	margen inferior :  15 px ;
+}
+
+# contenedor {
+	ancho :  100 % ;
+	ancho máximo :  100 % ;
+	altura : auto;
+	margen :  0 px automático;
+	relleno :  0 px ;
+}
+
+# formulario {
+	ancho :  100 % ;
+	ancho máximo :  100 % ;
+	altura : auto;
+	margen :  0 px automático;
+	relleno :  0 px ;
+}
+
+# ir_atras {
+	color :  # f00 ;
+	pantalla : bloque;
+	ancho :  120 px ;
+	cursor : puntero;
+	margen :  20 px automático 0 px automático;
+	relleno :  5 px ;
+	tamaño de fuente :  18 px ;
+	alineación de texto : centro;
+	font-weight : más negrita;
+	decoración de texto : ninguna;
+}
+
+# ir_atras : hover {
+	sombra de texto :  0 px  0 px  2 px  # 000 ;
+	decoración de texto : subrayado;
+}
+
+# enlace_borrar {
+	color :  # f00 ;
+	font-weight : más negrita;
+	decoración de texto : ninguna;
+	tamaño de fuente :  18 px ;
+	transformación de texto : mayúsculas;
+	estilo de fuente : cursiva;
+}
+
+# enlace_borrar : hover {
+	sombra de texto :  0 px  0 px  2 px  # 000 ;
+	decoración de texto : subrayado;
+}
+
+. mensaje_error {
+	color :  # 000 ;
+	font-weight : más negrita;
+	alineación de texto : centro;
+	tamaño de fuente :  16 px ;
+	margen superior :  4 px ;
+	margen inferior :  4 px ;
+	pantalla : bloque;
+	sombra de texto :  0 px  0 px  8 px  # f00 ;
+}
+
+fieldset {
+	ancho :  30 % ;
+	ancho máximo :  100 % ;
+	altura : auto;
+	margen :  20 px automático;
+	acolchado :  2 % ;
+	borde :  2 px sólido # f00 ;
+	color de fondo :  # d6d4d4 ;
+	radio del borde :  1 em ;
+	-Kit-web-borde-radio :  1 em ;
+}
+
+leyenda {
+	alineación de texto : centro;
+	font-weight : más negrita;
+	sombra de texto :  0 px  0 px  4 px  # f00 ;
+}
+
+etiqueta {
+	color :  # 000 ;
+	pantalla : bloque;
+	alineación de texto : centro;
+	font-weight : más negrita;
+	sombra de texto :  0 px  0 px  2 px  # f00 ;
+}
+
+input [ type = "text" ] {
+	ancho :  260 px ;
+	altura : auto;
+	pantalla : bloque;
+	font-weight : más negrita;
+	margen :  8 px automático;
+	borde :  1 px sólido # 000 ;
+}
+
+input [ type = "submit" ] {
+	ancho :  150 px ;
+	altura : auto;
+	pantalla : bloque;
+	acolchado :  2 % ;
+	margen :  0 px automático;
+	color :  # f00 ;
+	cursor : puntero;
+	font-weight : más negrita;
+	color de fondo :  # 000 ;
+	alineación de texto : centro;
+	borde :  2 px sólido # f00 ;
+	transformación de texto : mayúsculas;
+}
+
+input [ type = "submit" ] : hover {
+	color :  # 000 ;
+	color de fondo :  # f00 ;
+	color del borde :  # 000 ;
+}
+
+mesa {
+	ancho :  60 % ;
+	ancho máximo :  100 % ;
+	altura : auto;
+	margen :  0 px automático;
+}
+
+table  tr {
+	alineación vertical : medio;
+}
+
+table  th {
+	color :  # f00 ;
+	font-weight : más negrita;
+	alineación de texto : centro;
+	tamaño de fuente :  25 px ;
+	decoración de texto : subrayado;
+	sombra de texto :  0 px  0 px  2 px  # 000 ;
+}
+
+table  td {
+	alineación de texto : centro;
+	font-weight : más negrita;
+	altura de línea :  2 cm ;
+}
